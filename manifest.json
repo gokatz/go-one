@@ -1,0 +1,13 @@
+{
+	"name": "Go One",
+	"description": "All things for me",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": ["https://outlook.live.com/*"],
+			// "css": ["my-styles.css"],
+			"js": ["src/outlook/content.js"]
+		}
+	]
+}
